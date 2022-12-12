@@ -1,5 +1,5 @@
 import CTA from "../components/CTA";
-import Cube from "../components/Cube";
+import Ccube from "../components/Cube";
 
 export const Home = () => {
   return (
@@ -8,7 +8,7 @@ export const Home = () => {
         S.A.S Travel Journal
       </h1>
       <CTA />
-      <Cube />
+      <Ccube />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import "./cube.css";
 
-function CCube() {
+ function Cube() {
   return (
     <>
       <div className="page-container">
@@ -18,4 +18,4 @@ function CCube() {
   );
 }
 
-export default CCube;
+export default Cube;

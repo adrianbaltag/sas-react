@@ -6,7 +6,7 @@
     align-items: center;
   
     perspective: 100em;
-    perspective-origin: 77px -300px;
+    perspective-origin: 77px 30px;
     position: relative;
   }
   
@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     animation: spin-cube 25s linear infinite;
-    margin-top: 10em;
+    margin-top: 6em;
     /* margin-bottom: -5em; */
     /* margin-left: 30%; */
   }
@@ -37,7 +37,7 @@
     width: 10em;
     height: 10em;
     background: #113719;
-    transform: rotateX(90deg) translateZ(-12.5em) translateX(-5em);
+    transform: rotateX(90deg) translateZ(-12em) translateX(-5em);
     filter: blur(20px);
     box-shadow: 0 0 120px rgba(0, 255, 0, 0.2), 0 0 200px rgba(0, 255, 0, 0.4),
       0 0 300px rgba(0, 255, 0, 0.6), 0 0 400px rgba(0, 255, 0, 0.8),
@@ -57,18 +57,19 @@
     top: 0;
     bottom: 0;
     box-shadow: 0 0 50px 10px #1a1a1a inset;
+    cursor: pointer;
   }
   
   .front {
     transform: translateZ(5em);
-    background-image: url(../img/maldive-cube.jpg);
+    background-image: url(../public/images/img1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .back {
     transform: translateZ(-5em);
-    background-image: url(../img/africa-cube.jpg);
+    background-image: url(../public/images/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -79,21 +80,21 @@
   
   .bottom {
     transform: translateY(-5em) rotateX(90deg);
-    background-image: url(../img/venice-cube.jpg);
+    background-image: url(../public/images/img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .right {
     transform: translateX(5em) rotateY(90deg);
-    background-image: url(../img/egypt-cube.jpg);
+    background-image: url(../public/images/img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
   
   .left {
     transform: translateX(-5em) rotateY(90deg);
-    background-image: url(../img/bran-castle-cube.jpg);
+    background-image: url(../public/images/img5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
